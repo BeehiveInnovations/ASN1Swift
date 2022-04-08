@@ -14,6 +14,10 @@ let package = Package(
         .library(
             name: "ASN1Swift",
             targets: ["ASN1Swift"]),
+	.library(
+            name: "ASN1SwiftDynamic",
+	    type: .dynamic,
+            targets: ["ASN1Swift"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
