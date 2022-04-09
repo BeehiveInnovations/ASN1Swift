@@ -4,3 +4,6 @@
 /*.xcodeproj
 xcuserdata/
 /.swiftpm
+/ASN1Swift.xcframework/
+/archives/
+/DerivedData/
