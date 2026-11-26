@@ -7,10 +7,10 @@ let visionOSSetting: SwiftSetting = .define("VISION_OS", .when(platforms: [.visi
 
 let package = Package(
     name: "ASN1Swift",
-	platforms: [.macOS(.v10_13),
-				.iOS(.v12),
-				.tvOS(.v12),
-                .watchOS(.v6),
+	platforms: [.macOS(.v12),
+				.iOS(.v15),
+				.tvOS(.v15),
+                .watchOS(.v9),
                 .visionOS(.v1)],
     products: [
         .library(

@@ -66,7 +66,7 @@ If this is your first time using Carthage in the project, you'll need to go thro
 
 ### Requirements
 
-- iOS 12.0+ / OSX 10.13+
+- iOS 15.0+ / macOS 12.0+
 - Swift 5.9+
 
 Example
